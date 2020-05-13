@@ -1,0 +1,11 @@
+# ID MUST BE THE SAME AS FILENAME
+id: quest
+info: placeholder info
+objective: placeholder objective
+next: quest2
+conditions:
+  - {type: break, id: minecraft.beet, number: 64}
+  - {type: place, id: minecraft.beet, number: 64}
+  - {type: get, id: minecraft.beet, number: 64}
+  - {type: statechange, id: minecraft.grass, number: 64}
+  - {type: kill, id: minecraft.husk, number: 64}

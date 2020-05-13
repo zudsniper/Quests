@@ -1,0 +1,4 @@
+slave-group: slaves
+headslave-group: headslaves
+
+default-quest: quest

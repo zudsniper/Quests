@@ -1,0 +1,13 @@
+name: Slaves
+version: ${project.version}
+main: cc.holstr.slaves.Slaves
+api-version: 1.13
+depend: [LuckPerms]
+authors: [zudsniper]
+description: Slave quests and things
+commands:
+  quest:
+    description: get current question information
+    usage: /quest
+    permission: slaves.quest
+    permission-message: You can't access your current quest.
